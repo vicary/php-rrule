@@ -30,11 +30,11 @@ class RfcParser
 	static public function parseLine($line, array $default = array())
 	{
 		$line = trim($line);
-		$property = array_merge([
+		$property = array_merge(array(
 			'name' => '',
 			'params' => array(),
 			'value' => null
-		], $default);
+		), $default);
 
 		if ( strpos($line,':') === false ) {
 			if ( ! $property['name'] ) {
