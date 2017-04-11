@@ -32,7 +32,7 @@ class RfcParser
 		$line = trim($line);
 		$property = array_merge([
 			'name' => '',
-			'params' => [],
+			'params' => array(),
 			'value' => null
 		], $default);
 
