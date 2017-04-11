@@ -77,9 +77,9 @@ class RfcParser
 		$lines = explode("\n", $string);
 
 		foreach ( $lines as $line ) {
-			$property = self::parseLine($line, [
+			$property = self::parseLine($line, array(
 				'name' => sizeof($lines) > 1 ? null : 'RRULE'  // allow missing property name for single-line RRULE
-			]);
+			));
 
 			switch ( strtoupper($property['name']) ) {
 				case 'DTSTART':
