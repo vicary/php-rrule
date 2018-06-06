@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Translation file for English language.
+ * Translation file for Traditional Chinese language.
  *
  * Most strings can be an array, with a value as the key. The system will
  * pick the translation corresponding to the key. The key "else" will be picked
@@ -11,7 +11,7 @@
  *
  * For the full copyright and license information, please view the LICENSE file.
  *
- * @author Rémi Lanvin <remi@cloudconnected.fr>
+ * @author Vicary Archangel <vicary.archangel@member.mensa.org>
  * @link https://github.com/rlanvin/php-rrule
  */
 return array(
